@@ -1,14 +1,1 @@
-<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <linearGradient id="Gradient">
-      <stop offset="0" stop-color="black" />
-      <stop offset="1" stop-color="white" />
-    </linearGradient>
-    <mask id="Mask">
-      <rect x="0" y="0" width="200" height="200" fill="url(#Gradient)"  />
-    </mask>
-  </defs>
-
-  <rect x="0" y="0" width="200" height="200" fill="green" />
-  <rect x="0" y="0" width="200" height="200" fill="red" mask="url(#Mask)" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" version="1.1"><defs><linearGradient id="Gradient"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient><mask id="Mask"><rect width="200" height="200" x="0" y="0" fill="url(#Gradient)"/></mask></defs><rect width="200" height="200" x="0" y="0" fill="green"/><rect width="200" height="200" x="0" y="0" fill="red" mask="url(#Mask)"/></svg>
